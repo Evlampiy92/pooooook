@@ -11,7 +11,7 @@
     <h1>Мой сайт</h1>
     <nav>
       <a href="index.html.kk">Главная</a>
-      <a href="#about">Обо мне</a>
+      <a href="index.html.k1">Обо мне</a>
       <a href="#contact">Контакты</a>
     </nav>
   </header>
