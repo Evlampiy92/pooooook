@@ -12,7 +12,7 @@
     <nav>
       <a href="index.html.kk">Главная</a>
       <a href="index.html.k1">Обо мне</a>
-      <a href="#contact">Контакты</a>
+      <a href="index.html.k2">Контакты</a>
     </nav>
   </header>
 
