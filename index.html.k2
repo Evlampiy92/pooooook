@@ -1,4 +1,22 @@
-   <!-- Контакты -->
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Мой итоговый сайт</title>
+  <link href="style.css"" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Шапка сайта -->
+  <header>
+    <h1>Мой сайт</h1>
+    <nav>
+      <a href="index.html.kk">Главная</a>
+      <a href="index.html.k1">Обо мне</a>
+      <a href="index.html.k2">Контакты</a>
+    </nav>
+  </header>
+
+<!-- Контакты -->
     <section id="contact">
       <h2>Контакты</h2>
       <p>Если у тебя есть вопросы или ты хочешь связаться со мной — используй форму ниже.</p>
