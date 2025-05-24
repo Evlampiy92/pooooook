@@ -92,29 +92,43 @@ body {
       text-align: left;
     }
 
-    form input, form textarea {
-      width: 100%;
-      padding: 10px;
-      margin-bottom: 15px;
-      border: none;
-      border-radius: 5px;
-      background-color: #2d3748;
-      color: white;
-    }
+/* Обнуление отступов */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-    form button {
-      padding: 10px 20px;
-      background-color: #4299e1;
-      color: white;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
-    }
+body {
+  background-color: #121212; /* Темный фон */
+  color: #ffffff;            /* Белый текст */
+  font-family: Arial, sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
-    footer {
-      background-color: #2d3748;
-      text-align: center;
-      padding: 20px;
-      font-size: 0.9em;
-      color: #a0aec0;
-    }
+.container {
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.buttons button {
+  background-color: #1f1f1f;     /* Фон кнопок */
+  color: white;                  /* Цвет текста */
+  border: 1px solid #333;        /* Граница */
+  padding: 12px 24px;
+  margin: 10px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.buttons button:hover {
+  background-color: #333333;     /* При наведении */
+}
